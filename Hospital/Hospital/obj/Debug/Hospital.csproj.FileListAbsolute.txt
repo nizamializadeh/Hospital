@@ -1,0 +1,6 @@
+c:\users\nizam_000\documents\visual studio 2017\Projects\Hospital\Hospital\bin\Debug\Hospital.exe.config
+c:\users\nizam_000\documents\visual studio 2017\Projects\Hospital\Hospital\bin\Debug\Hospital.exe
+c:\users\nizam_000\documents\visual studio 2017\Projects\Hospital\Hospital\bin\Debug\Hospital.pdb
+c:\users\nizam_000\documents\visual studio 2017\Projects\Hospital\Hospital\obj\Debug\Hospital.csprojResolveAssemblyReference.cache
+c:\users\nizam_000\documents\visual studio 2017\Projects\Hospital\Hospital\obj\Debug\Hospital.exe
+c:\users\nizam_000\documents\visual studio 2017\Projects\Hospital\Hospital\obj\Debug\Hospital.pdb
