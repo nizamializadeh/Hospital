@@ -12,9 +12,9 @@ namespace Hospital
         {
           
             List<string> sobeler = new List<string>();
-             sobeler.Add("1.Neyrocerahiya");
-            sobeler.Add("2.kariolagiya");
-            sobeler.Add("3.Sramatalogiya");
+             sobeler.Add("1.Neyrocerrahiye");
+            sobeler.Add("2.Kardiologiya");
+            sobeler.Add("3.Stomatologiya");
            
             foreach (string i in sobeler)
             {

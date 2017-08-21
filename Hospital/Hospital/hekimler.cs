@@ -11,9 +11,9 @@ namespace Hospital
        public hekimler()
         {
             List<string> hekimler = new List<string>();
-            hekimler.Add("1.Dr. Oktay Şamilov");
-            hekimler.Add("2.T.e.n. Dr. Vüsal Eyvazov");
-            hekimler.Add("3.Dr. Elxan Bəşirov");
+            hekimler.Add("1.Dr. Oktay samilov");
+            hekimler.Add("2.T.e.n. Dr. Vusal Eyvazov");
+            hekimler.Add("3.Dr. Elxan Besirov");
             foreach (string i in hekimler)
             {
                 Console.WriteLine(i);

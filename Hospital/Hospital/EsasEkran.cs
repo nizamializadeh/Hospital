@@ -14,6 +14,7 @@ namespace Hospital
         string hekimgoster;
         public EsasEkran()
         {
+            
             Console.WriteLine("Parolu Daxil Edin");
             sifre = Console.ReadLine();
             if (sifre == "admin")
@@ -22,24 +23,26 @@ namespace Hospital
                 sEmeliyatsec = Console.ReadLine();
                 if (sEmeliyatsec == "1")
                 {
-                    Sobeler yenecagir = new Sobeler();
-                    EsasEkran cagir = new EsasEkran();
+                    new Sobeler();
+                   new EsasEkran();
 
                 }
                 else if (sEmeliyatsec == "2")
                 {
-                    soberemove nese2 = new soberemove();
-                    EsasEkran cagir = new EsasEkran();
+                    new Sobeler();
+                    Console.WriteLine("");
+                    new soberemove();
+                    new EsasEkran();
                 }
                 else if (sEmeliyatsec == "3")
                 {
-                    SobeAdd nese = new SobeAdd();
-                    EsasEkran cagir = new EsasEkran();
+                     new SobeAdd();
+                     new EsasEkran();
                 }
                 else if (sEmeliyatsec == "4")
                 {
-                    Sobeler yenecagir = new Sobeler();
-                    Console.Write("Sobe Adi Yazin:   ");
+                     new Sobeler();
+                    Console.Write("Sobe Secin:   ");
                     sobeadi = Console.ReadLine();
                     if (sobeadi== "1")
                     {
@@ -47,31 +50,98 @@ namespace Hospital
                         hekimgoster = Console.ReadLine();
                         if (hekimgoster == "1")
                         {
-                            hekimler nes3 = new hekimler();
-                            EsasEkran cagir = new EsasEkran();
+                           new hekimler();
+                            new EsasEkran();
                         }
                         else if (hekimgoster == "2")
                         {
-                            hekimremove n = new hekimremove();
-                            EsasEkran cagir = new EsasEkran();
+                            new hekimler();
+                            Console.WriteLine("");
+                            new hekimremove();
+                            new EsasEkran();
                         }
                         else if (hekimgoster == "3")
                         {
-                            hekimadd nese44 = new hekimadd();
-                            EsasEkran cagir = new EsasEkran();
+                           new hekimadd();
+                           new EsasEkran();
                         }
+                        else
+                        {
+                            Console.WriteLine("Duzgun Emeliyat Secin");
+                            new EsasEkran();
+                        }
+                    }
+                    else if ( sobeadi == "2")
+                    {
+                        Console.WriteLine("1.Hekimleri goster        2.Hekim Sil        3.Hekim Elave Et");
+                        hekimgoster = Console.ReadLine();
+                        if (hekimgoster == "1")
+                        {
+                            new hekimler();
+                            new EsasEkran();
+                        }
+                        else if (hekimgoster == "2")
+                        {
+                            new hekimler();
+                            Console.WriteLine("");
+                            new hekimremove();
+                            new EsasEkran();
+                        }
+                        else if (hekimgoster == "3")
+                        {
+
+                            new hekimadd();
+                            new EsasEkran();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Duzgun Emeliyat Secin");
+                            new EsasEkran();
+                        }
+                    }
+                    else if (sobeadi == "3")
+                    {
+                        Console.WriteLine("1.Hekimleri goster        2.Hekim Sil        3.Hekim Elave Et");
+                        hekimgoster = Console.ReadLine();
+                        if (hekimgoster == "1")
+                        {
+                            new hekimler();
+                            new EsasEkran();
+                        }
+                        else if (hekimgoster == "2")
+                        {
+                            new hekimler();
+                            Console.WriteLine("");
+                            new hekimremove();
+                            new EsasEkran();
+                        }
+                        else if (hekimgoster == "3")
+                        {
+                            new hekimadd();
+                            new EsasEkran();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Duzgun Emeliyat Secin");
+                            new EsasEkran();
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Duzgun Emeliyat Secin");
+                        new EsasEkran();
                     }
                 }
                 else
                 {
                     Console.WriteLine("Duzgun Emeliyat Secin");
-                    EsasEkran cagir = new EsasEkran();
+                    new EsasEkran();
                 }
              }
                 else
                 {
                     Console.WriteLine("Parol Sehvdir");
-                    EsasEkran cagir = new EsasEkran();
+                    new EsasEkran();
             }
             }
     }

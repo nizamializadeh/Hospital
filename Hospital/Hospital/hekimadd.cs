@@ -10,6 +10,7 @@ namespace Hospital
     {
         public hekimadd()
         {
+            Console.WriteLine("Elave Edeceyiniz  Hekimin Adini Yazin");
             List<string> doc = new List<string>();
             doc.Add("1.Dr. Oktay Şamilov");
             doc.Add("2.T.e.n. Dr. Vüsal Eyvazov");

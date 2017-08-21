@@ -12,9 +12,9 @@ namespace Hospital
         {
             Console.WriteLine("Sileceyiniz Sobenin Adini Yazin");
             List<string> sobeler = new List<string>();
-            sobeler.Add("Neyrocerahiya");
-            sobeler.Add("kariolagiya");
-            sobeler.Add("Sramatalogiya");
+            sobeler.Add("Neyrocerrahiye");
+            sobeler.Add("Kardiologiya");
+            sobeler.Add("Stomatologiya");
             string input = Console.ReadLine();
            
             sobeler.Remove(input);

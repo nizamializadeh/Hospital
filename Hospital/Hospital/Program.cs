@@ -10,7 +10,10 @@ namespace Hospital
     {
         static void Main(string[] args)
         {
-           EsasEkran cagir =new EsasEkran();
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.Clear();
+            EsasEkran cagir =new EsasEkran();
         }
     }
 }

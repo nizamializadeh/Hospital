@@ -10,11 +10,11 @@ namespace Hospital
     {
         public SobeAdd()
         {
-            Console.WriteLine("Elave Sobenin Adini Yazin");
+            Console.WriteLine("Elave Edeceyiniz Sobenin Adini Yazin");
             List<string> sobeler = new List<string>();
-            sobeler.Add("Neyrocerahiya");
-            sobeler.Add("kariolagiya");
-            sobeler.Add("Sramatalogiya");
+            sobeler.Add("Neyrocerrahiye");
+            sobeler.Add("Kardiologiya");
+            sobeler.Add("Stomatologiya");
             string input = Console.ReadLine();
             sobeler.Add(input);
             foreach (string i in sobeler)
